@@ -40,7 +40,7 @@ function App() {
           </Webcam>
 
 
-          <button onClick={handleClick}>Start</button>
+          <button onClick={handleClick}>Start123</button>
       </div>
     );
 }
