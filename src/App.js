@@ -22,22 +22,8 @@ function App() {
       <div className="App">
 
           <Webcam
-              audio={false}
-              height={720}
-              screenshotFormat="image/jpeg"
-              width={1280}
-              videoConstraints={videoConstraints}
-          >
-              {({ getScreenshot }) => (
-                  <button
-                      onClick={() => {
-                          const imageSrc = getScreenshot()
-                      }}
-                  >
-                      Capture photo
-                  </button>
-              )}
-          </Webcam>
+
+           />
 
 
           <button onClick={handleClick}>Start12345</button>
